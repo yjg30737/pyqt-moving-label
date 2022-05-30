@@ -1,7 +1,7 @@
 # pyqt-moving-label
 PyQt label which is moving from left to right
 
-Good to use as a advertisement/notice tool.
+Good to use as an advertisement or notice tool.
 
 ## Requirements
 * PyQt5 >= 5.8
