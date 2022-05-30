@@ -32,7 +32,9 @@ class MainWindow(QMainWindow):
 
     def __initUi(self):
         self.__label = MovingLabel('Moving Label', self)
+        # if you want to set the dynamic moving speed based on window size
         # self.__label.setDurationBasedOnWindowSize(True)
+        # if you want to set the duration
         # self.__label.setDuration(5000)
 
         lay = QVBoxLayout()
