@@ -1,13 +1,18 @@
 # pyqt-moving-label
 PyQt label which is moving from left to right
 
-Good to use as an advertisement or notice tool.
-
 ## Requirements
 * PyQt5 >= 5.8
 
 ## Setup
 `python -m pip install pyqt-moving-label`
+
+## Detailed Description
+This inherits the QLabel.
+
+Good to use as an advertisement or notice tool.
+
+You can create constructor like this - `MovingLabel('Moving Label', parent_class)`. Both two arguments are necessary.
 
 ## Example
 Code Sample
