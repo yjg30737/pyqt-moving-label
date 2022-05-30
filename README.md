@@ -32,6 +32,8 @@ class MainWindow(QMainWindow):
 
     def __initUi(self):
         self.__label = MovingLabel('Moving Label', self)
+        # self.__label.setDurationBasedOnWindowSize(True)
+        # self.__label.setDuration(5000)
 
         lay = QVBoxLayout()
         lay.addWidget(self.__label)
