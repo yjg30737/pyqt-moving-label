@@ -14,6 +14,10 @@ Good to use as an advertisement or notice tool.
 
 You can create constructor like this - `MovingLabel('Moving Label', parent_class)`. Both two arguments are necessary.
 
+### Method Overview
+* `setDurationBasedOnWindowSize(f: bool)` - Set the duration based on window size. If you set this to `True`, The window gets bigger the moving speed gets faster. The window gets smaller the moving speed gets slower.
+* `setDuration(milliseconds: int)` - Set the duration of label moving from left to right.
+
 ## Example
 Code Sample
 ```python
